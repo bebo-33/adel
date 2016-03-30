@@ -1,0 +1,314 @@
+body{
+  /*padding-top:70px;*/
+}
+
+/* min bard*/
+
+.navbar
+{
+  /*min-height:50px;*/
+}
+
+.test{
+  height: 2000px;
+  background:#f6f6f6;
+  line-height: 200px;
+
+}
+
+/*activ link */
+
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus
+{
+  background-color: #e41b17;
+}
+
+/*normal link */
+
+.navbar-inverse .navbar-nav > li > a
+{
+  color: #BBB;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+/* brand name */
+
+.navbar-inverse .navbar-brand
+{
+  color: #d0d0d0;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.navbar-inverse .navbar-brand span
+{
+  color: #e41b17;
+  font-size: 19px
+}
+
+/*drod dwuon */
+
+.dropdown-menu
+{
+  background-color:#333;
+  border-top: 3px solid #e41b17;
+  min-width: 200px;
+}
+
+.navbar-right .dropdown-menu
+{
+  left: 0;
+  right: auto;
+}
+
+.dropdown-menu > li > a
+{
+  color: #fff;
+  /*padding: 7px 20px;*/
+  padding-left: 10px;
+  transition:all 0.5s ease;
+  left: 0;
+  right: auto;
+}
+
+.dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus
+{
+  background-color: #e41b17;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.dropdown-menu .divider
+{
+  background-color: #A21A1A;
+}
+
+/* navbar toggle*/
+
+.novbar toggle
+{
+  margin-top: 9px;
+}
+/*carousel*/
+.carousel-caption
+{
+  /*bottom: 100px;*/
+  background:rgba(3,3,3,0.3);
+/*  padding-right: 20px;
+  padding-left: 20px;*/
+}
+
+.carousel-indicators li
+{
+  height: 15px;
+  width: 15px;
+
+}
+
+.carousel-indicators .active
+{
+  width: 15px;
+  height: 15px;
+  background: #e41b17
+
+}
+
+/*.container
+{
+    width: 1100px;
+}*/
+خاص بي
+
+
+/***************start section adout***********************/
+.adout
+  {
+    padding-top:60px;
+    podding-botton:60px;
+  }
+
+.about .lead
+  {
+    color: #888;
+    font-size:25px;
+    margin-top: 15px;
+  }
+
+.about h1
+{
+  font-weight: bold;
+}
+
+.about h1 span
+  {
+    color:#e41b17;
+  }
+
+/***end section*/
+
+/****start section features**/
+.features
+  {
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.features
+  {
+    margin-bottom: 30px;
+  }
+
+.features .feat p
+  {
+    line-height:2em;
+  }
+
+.features h1
+  {
+    margin-bottom: 50px;
+  }
+
+.features .feat span.glyphicon
+  {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+
+/****end section features**/
+
+/**start testimonials section**/
+
+.testimonials
+  {
+    padding: 25px;
+    padding-bottom: 25px;
+
+  }
+
+.testimonials h1
+  {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+.testimonials .lead
+  {
+    line-height:2em;
+  }
+
+.testimonials span
+  {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e41b17;
+  }
+
+.testimonials .carousel-inner
+  {
+    min-height: 160px;
+  }
+
+.testimonials .carousel-indicators
+  {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 3px;
+  }
+
+.testimonials .carousel-indicators li
+  {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition-duration:1.1s;
+  }
+
+.testimonials .carousel-indicators li.active
+  {
+    width: 80px;
+    height: 80px;
+    opacity:1;
+    background:none;
+    border: 3px solid #e41b17;
+  }
+
+.testimonials .carousel-indicators li img
+  {
+    max-width: 100%
+  }
+
+/** end testimonials section**/
+
+/** start sction price table **/
+.price_table
+  {
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+.price_table h1
+  {
+
+    margin-bottom: 40px;
+
+  }
+.price_table .price_box
+  {
+     background: #fff;
+     padding: 10px;
+     border: 1px solid #ddd;
+     margin-bottom: 15px;
+  }
+
+.price_table .price_box h2
+  {
+    margin: 5px 0 15px;
+  }
+
+.price_table .price_box:hover p
+    {
+    /**  border: 2px solid #f00; **/
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #dfdf45;
+    }
+
+.price_table .price_box p
+  {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    border:2px solid #fff;
+    background: #f3f3f3;
+    border-radius: 50%;
+    line-height: 100px;
+    transition-duration: 0.7s;
+  }
+
+.price_table .price_box ul
+  {
+    line-height: 250%;
+    font-size: 18px;
+  }
+
+.price_table .price_box a
+  {
+    margin-bottom: 5px;
+  }
+
+/** end sction price table **/
